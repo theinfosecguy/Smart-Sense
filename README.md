@@ -23,9 +23,9 @@ The Device can be attached to the Cars directly and will help reduce Accidents i
 
 
 
-## Everything About Pass-Sec : Pass-Sec Wiki 📚
+## Everything About Smart-Sense : Smart-Sense Wiki 📚
 
-**Pass Sec Wiki** : [Take Me to Wiki](https://github.com/theinfosecguy/Smart-Sense/wiki/):100:
+**Smart-Sense Wiki** : [Take Me to Wiki](https://github.com/theinfosecguy/Smart-Sense/wiki/):100:
 
 **Complete Flow Chart** : [Take Me Flow Chart :smile: ](https://github.com/theinfosecguy/Smart-Sense/wiki/Flowchart)
 
