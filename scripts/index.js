@@ -6,16 +6,17 @@ const onSnapshot = (data) => {
   data.forEach(doc => {
     const userLog = doc.data();
     const li = `
-      <li>
+    <section class="mainSection">
+      <div class="logRow">
         <div> ${userLog.Date} </div>
         <div> ${userLog.Email } </div>
         <div> ${userLog.Name} </div>
         <div> ${userLog.Time} </div>
         <div> ${userLog.vNo} </div>
-      </li>
+      </div>
+      </section>
     `;
     html += li;
   });
   logs.innerHTML = html
-
 };
