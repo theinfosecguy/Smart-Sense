@@ -141,3 +141,30 @@ canvas{
 .count-particles {
 	border-radius: 0 0 3px 3px;
 }
+
+/* NavBar */
+
+.navbar{
+	height: 4.3rem;
+	background-color: rgb(10, 10, 10)!important;
+	color:white;
+}
+
+.navbar button{
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+
+.navbar button:hover{
+	background-color: white;
+	border: 2px solid white;
+	color: black;
+}
+
+/* Starting with the Main Page */
+
+.headerHeading{
+	text-align: center;
+	margin-top: 2%;
+}
