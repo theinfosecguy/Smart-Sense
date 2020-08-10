@@ -191,5 +191,84 @@ canvas{
 
 .logRow div{
 	margin: 0 2rem;
+}
 
+@media screen and  (max-width:1350px){
+
+	.logRow{
+		width: 85%;
+		border-radius: 20px;
+	}
+}
+
+@media screen and  (max-width:1104px){
+	.logRow{
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and  (max-width:960px){
+	.logRow{
+		width: 90%;
+		font-size: 1.1rem;
+	}
+
+	.logRow div{
+		margin: 0 1.4rem;
+	}
+}
+
+
+@media screen and  (max-width:758px){
+	.logRow{
+		width: 90%;
+		font-size: 0.9rem;
+		border-radius: 16px;
+	}
+
+	.logRow div{
+		margin: 0 1rem;
+	}
+
+	.headerHeading{
+		font-size: 2rem;
+	}
+}
+
+@media screen and  (max-width:420px){
+
+	.headerHeading{
+		font-size: 1.50rem;
+	}
+
+}
+
+@media screen and  (max-width:400px){
+	.logRow{
+		justify-content: space-around;
+		width: 95%;
+		font-size: 0.7rem;
+		border-radius: 9px;
+	}
+
+}
+
+@media screen and  (max-width:330px){
+
+	.logRow{
+		font-size: 0.7rem;
+		background-color: black;
+		color: white;
+		height: 3.4rem;
+		width: 95%;
+		border-radius: 10px;
+	}
+
+	.logRow div{
+		margin: 0 0.1rem;
+	}
+
+	.dNone{
+		display: none;
+	}
 }
