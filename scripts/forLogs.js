@@ -1,16 +1,12 @@
 
+db.collection('testUsers').get().then(snapshot => {
+  onSnapshot(snapshot.docs);
+});
 
-db.collection("testLogs")
-.onSnapshot((snapshot) => {
-    snapshot.docs.map((doc)=>{
-      var data = doc.data();
-      console.log(data.Name)
-      
-      document.getElementById("nameField").innerHTML = doc.data().Name; 
-
-    });
-
-
-})
-
-
+const logout = document.querySelector('#logout');
+logout.addEventListener('click', (e) => {
+  // e.preventDefault();
+  auth.signOut();
+  console.log('user signed out');
+  window.location = 'index.html';
+});
