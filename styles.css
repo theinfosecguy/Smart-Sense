@@ -25,6 +25,7 @@ body {
 	border: 2px solid white;
 	margin-top: 1rem;
 	width: 18%;
+	min-width: 100px;
 	height: 3.2rem;
 	cursor: pointer;
 	color: white;
