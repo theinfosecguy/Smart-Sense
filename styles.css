@@ -24,7 +24,7 @@ body {
 	background-color: transparent;
 	border: 2px solid white;
 	margin-top: 1rem;
-	width: 18%;
+	width: 15rem;
 	min-width: 100px;
 	height: 3.2rem;
 	cursor: pointer;
@@ -147,7 +147,7 @@ canvas{
 
 .navbar{
 	height: 4.3rem;
-	background-color: rgb(10, 10, 10)!important;
+	background-color:#1b262c!important;
 	color:white;
 }
 
@@ -183,11 +183,12 @@ canvas{
 	justify-content: center;
 	align-items: center;
 	margin: 1rem;
-	background-color: black;
+	background-color: #2b363c;
 	color: white;
 	height: 3.4rem;
 	width: 70%;
 	border-radius: 20px;
+	font-size: 1.2rem;
 }
 
 .logRow div{
@@ -273,3 +274,43 @@ canvas{
 		display: none;
 	}
 }
+
+/* Fixing Brand Issues */
+
+.navbar-brand{
+	color: white!important;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	height: 7vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #1b262c;
+	color: white;
+	text-align: center;
+}
+
+.btn-outline-success{
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	width: 7rem;
+	border-radius: 0px;
+}
+
+.btn-outline-success:hover{
+	background-color: white;
+	border: 1px solid white;
+	color: #1b262c;
+	width: 7rem;
+	border-radius: 0px;
+}
+
+
+.dwn-btn{
+	width: 150px!important;
+}
+
